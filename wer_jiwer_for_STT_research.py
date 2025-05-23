@@ -7,7 +7,7 @@ import re
 
 CORRECT_TXT_PATH = r"original.txt"       # This txt file is referenced as correct.
 TARGET_EXCEL_PATH = r"STT_research.xlsx"      # This excel file is written WER into. 
-TARGET_WORKSHEET_NAME = 'Speechmatics_Standard_exceptZ'     # 'Amivoice' or 'Speechmatics_Standard'
+TARGET_WORKSHEET_NAME = 'Service_A'     # 'Service_A' or 'Service_B'
 
 def main():
     org_file_path = CORRECT_TXT_PATH
